@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
   if(argc < 3)
     {
-    std::cerr << "Required: image points" << std::endl;
+    std::cerr << "Required: image.png points.txt" << std::endl;
     return -1;
     }
 
